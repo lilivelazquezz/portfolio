@@ -64,8 +64,7 @@ html {
     text-align: center;
 }
 
-.name h1{
-    font-size: 5rem;
+.name h2{
     font-family: 'Satisfy', cursive;
     font-family: 'Sacramento', cursive;
     font-family: 'Italianno', cursive;
@@ -73,12 +72,14 @@ html {
     padding-bottom: 5px;
 }
 
-.current_position p{
-    font-size: 1.5rem;
+.current_position h4{
+    font-size: 1.25rem;
     font-style: oblique;
 }
 
 .intro p{
+    color: #34495E;
+    line-height: 1rem;
     font-size: 1rem;
 }
 
@@ -112,27 +113,32 @@ html {
 }
 
 .skills ul{
+    font-size: .75rem;
     color: #bdc3c7;
     column-count: 2;
     list-style-type: none;
 }
 
-footer{
-    float: right;
-}
-
 .social_media_list{
-    align-self: center;
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
     padding: 1%;
 }
 
 .social_media_list ul{
     display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.footer{
+    text-align: center;
+    display: inline-flex;
 }
 
 .social_media_list li{
+    padding: 0;
+    margin: 0;
 }
 
 .gitHub_icon{
@@ -161,10 +167,6 @@ footer{
     .info{
         margin-top: 2%;
     }
-    .name h1{
-        font-size: 1.25rem;
-    }
-
     .personal_img img{  
         display: none;
     }
