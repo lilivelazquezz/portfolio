@@ -72,6 +72,7 @@ html {
     font-family: 'Mrs Saint Delafield', cursive;
     padding-bottom: 5px;
 }
+
 .current_position p{
     font-size: 1.5rem;
     font-style: oblique;
@@ -85,6 +86,7 @@ html {
     text-align: center;
     display: inline-flex;
 }
+
 .link a{
     font-family: 'Notable', sans-serif;
     font-family: 'Sansita', sans-serif;
@@ -109,49 +111,51 @@ html {
     height: auto;
 }
 
-
 .skills ul{
     color: #bdc3c7;
     column-count: 2;
     list-style-type: none;
-   
 }
 
-.footer{
-  display: flex; 
+footer{
+    float: right;
 }
 
 .social_media_list{
+    align-self: center;
     list-style-type: none;
+    display: inline-flex;
+    padding: 1%;
+}
+
+.social_media_list ul{
     display: flex;
 }
 
 .social_media_list li{
-    padding: 10px;
 }
 
 .gitHub_icon{
+    vertical-align: center;
     height: auto;
-    width: 17%;
+    width: 10%;
     content: url(/static/images/github.png);
     vertical-align: middle;
 }
 
-
 .linkedIn_icon{
    vertical-align: middle; 
     height: auto;
-    width: 17%;
+    width: 10%;
     content: url(/static/images/linkedin.png)
 }
 
 .twitter_icon{
-   vertical-align: middle;
+    vertical-align: middle;
     height: auto;
-    width: 17%;
+    width: 10%;
     content: url(/static/images/twitter.png);
 }
-
 
 @media (max-width: 570px){
     .info{
