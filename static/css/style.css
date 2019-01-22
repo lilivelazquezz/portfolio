@@ -1,20 +1,6 @@
 html {
   font-size: 1rem;
 }
-
-
-.name h1{
-    font-size: 4rem;
-    font-family: 'Satisfy', cursive;
-    font-family: 'Sacramento', cursive;
-    font-family: 'Italianno', cursive;
-    font-family: 'Mrs Saint Delafield', cursive;
-    padding-bottom: 5px;
-}
-
-.current_position p{
-    font-size: .80rem;
-}
 .resume_icon{
     content: url(../images/baseline_description_black_18dp.png);
     vertical-align: middle;
@@ -28,6 +14,40 @@ html {
     content: url(../images/baseline_person_black_18dp.png);
     vertical-align: middle;
 }
+.gitHub_icon{
+    height: auto;
+    width: 17%;
+    content: url(../images/github.png);
+    vertical-align: middle;
+}
+
+
+.linkedIn_icon{
+   vertical-align: middle; 
+    height: auto;
+    width: 17%;
+    content: url(../images/linkedin.png)
+}
+
+.twitter_icon{
+   vertical-align: middle;
+    height: auto;
+    width: 17%;
+    content: url(../images/twitter.png);
+}
+.name h1{
+    font-size: 4rem;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Italianno', cursive;
+    font-family: 'Mrs Saint Delafield', cursive;
+    padding-bottom: 5px;
+}
+
+.current_position p{
+    font-size: .80rem;
+}
+
 .intro p{
     font-size: .75rem;
 }
