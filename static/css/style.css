@@ -21,6 +21,13 @@ html {
     vertical-align: middle;
 }
 
+.personal_img{
+    background-color:  #E5E7E9;
+}
+.personal_img img{
+    width: 100%;
+    height: 100%;
+}
 
 .linkedIn_icon{
    vertical-align: middle; 
@@ -35,6 +42,14 @@ html {
     width: 17%;
     content: url(../images/twitter.png);
 }
+
+.personal_img{
+    width: 100%;
+    height: 100%;
+    background-color:  #E5E7E9;
+}
+
+
 .name h1{
     font-size: 4rem;
     font-family: 'Satisfy', cursive;
@@ -99,11 +114,7 @@ font-family: 'Sansita', sans-serif;
     width: 20%;
     height: auto;
 }
-img{
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
+
 
 .skills ul{
     color: #bdc3c7;
@@ -155,6 +166,7 @@ img{
     .name h1{
         font-size: 1.25rem;
     }
+
     .personal_img img{  
         display: none;
     }
