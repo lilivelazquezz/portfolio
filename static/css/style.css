@@ -21,11 +21,11 @@ html {
 }
 
 .projects_icon{
-    content: url(/static/images/baseline_code_black_18dp.png);
+    content: url(../images/baseline_code_black_18dp.png);
     vertical-align: middle
 }
 .bio_icon{
-    content: url(/static/images/baseline_person_black_18dp.png);
+    content: url(../images/baseline_person_black_18dp.png);
     vertical-align: middle;
 }
 .intro p{
