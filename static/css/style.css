@@ -17,13 +17,6 @@ html {
     vertical-align: middle;
 }
 
-.gitHub_icon{
-    height: auto;
-    width: 17%;
-    content: url(../images/github.png);
-    vertical-align: middle;
-}
-
 .personal_img{
     background-color:  #E5E7E9;
 }
@@ -33,19 +26,6 @@ html {
     height: 100%;
 }
 
-.linkedIn_icon{
-   vertical-align: middle; 
-    height: auto;
-    width: 17%;
-    content: url(../images/linkedin.png)
-}
-
-.twitter_icon{
-   vertical-align: middle;
-    height: auto;
-    width: 17%;
-    content: url(../images/twitter.png);
-}
 
 .personal_img{
     width: 100%;
