@@ -153,7 +153,7 @@ html {
     vertical-align: center;
     height: auto;
     width: 10%;
-    content: url(/static/images/github.png);
+    content: url(../static/images/github.png);
     vertical-align: middle;
 }
 
@@ -161,14 +161,14 @@ html {
    vertical-align: middle; 
     height: auto;
     width: 10%;
-    content: url(/static/images/linkedin.png)
+    content: url(../static/images/linkedin.png)
 }
 
 .twitter_icon{
     vertical-align: middle;
     height: auto;
     width: 10%;
-    content: url(/static/images/twitter.png);
+    content: url(../static/images/twitter.png);
 }
 
 @media (max-width: 570px){
